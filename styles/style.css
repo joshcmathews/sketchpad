@@ -41,6 +41,8 @@ h1 {
 }
 
 button {
+  margin-top: 5px;
+
   background-color: #8E54E9;
   width: 100px;
   height: 50px;
@@ -63,9 +65,37 @@ button:focus {
   outline: none;
 }
 
+#clear {
+  position: relative;
+  top: 150px;
+
+}
+
 input {
+  background-color: #8E54E9;
+  width: 100px;
+  height: 50px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all .1s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
   transform: scale(1.1);
   background-color: #8E54f9;
+}
+
+::-webkit-input-placeholder {
+    color: white;
 }
 
 .clicked {
@@ -79,6 +109,8 @@ input {
   border-radius: 10px;
   transition: all 0.2s linear;
   display: none;
+  opacity: 0;
+  z-index: 4;
 }
 
 .touched {
