@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var $box = $('#box');
   var totalHeight = 700;
-  var pixels = 10;
+  var pixels = 100;
   for (var i = 0; i < pixels*pixels; i++) {
     $box.append('<div class="pixel"></div>');
   }

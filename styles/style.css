@@ -63,8 +63,13 @@ button:focus {
   outline: none;
 }
 
+input {
+  transform: scale(1.1);
+  background-color: #8E54f9;
+}
+
 .clicked {
-  background-color: black; 
+  background-color: black;
 }
 
 .pixel {
